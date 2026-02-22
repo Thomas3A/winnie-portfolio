@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Contact — Winnie Akello‑Arink</title>
   <meta name="description" content="Contact Winnie Akello‑Arink" />
-  <link rel="icon" type="image/png" href="assets/images/Site icon.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -18,13 +17,18 @@
       <nav class="site-nav" aria-label="Primary">
         <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">☰</button>
         <ul id="nav-menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+          <li><a href="about.html" data-i18n="nav.about">About</a></li>
+          <li><a href="resume.html" data-i18n="nav.resume">Resume</a></li>
+          <li><a href="gallery.html" data-i18n="nav.gallery">Gallery</a></li>
+          <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
         </ul>
       </nav>
+      <button class="lang-toggle" id="lang-toggle" aria-label="Switch language">
+        <span class="lang-option active" data-lang="en">EN</span>
+        <span class="lang-separator">|</span>
+        <span class="lang-option" data-lang="nl">NL</span>
+      </button>
     </div>
   </header>
 
@@ -32,26 +36,26 @@
     <section class="section">
       <div class="container two-col">
         <div>
-          <h1 class="section-title">Contact</h1>
-          <p class="lead">I'm open to opportunities in gender, migration policy, operations and governance.</p>
+          <h1 class="section-title" data-i18n="contact.heading">Contact</h1>
+          <p class="lead" data-i18n="contact.lead">I'm open to opportunities in gender, migration policy, operations and governance.</p>
           <ul class="contact-list">
-            <li><strong>Email</strong>: <a href="mailto:info@winnieakelloarink.com">info@winnieakelloarink.com</a></li>
+            <li><strong data-i18n="contact.email.label">Email</strong>: <a href="mailto:info@winnieakelloarink.com">info@winnieakelloarink.com</a></li>
           </ul>
         </div>
         <form class="contact-form" action="mailto:info@winnieakelloarink.com" method="post" enctype="text/plain">
           <label>
-            Name
-            <input type="text" name="name" placeholder="Your name" required />
+            <span data-i18n="contact.form.name.label">Name</span>
+            <input type="text" name="name" placeholder="Your name" data-i18n-placeholder="contact.form.name.placeholder" required />
           </label>
           <label>
-            Email
-            <input type="email" name="email" placeholder="you@example.com" required />
+            <span data-i18n="contact.form.email.label">Email</span>
+            <input type="email" name="email" placeholder="you@example.com" data-i18n-placeholder="contact.form.email.placeholder" required />
           </label>
           <label>
-            Message
-            <textarea name="message" rows="5" placeholder="How can I help?" required></textarea>
+            <span data-i18n="contact.form.message.label">Message</span>
+            <textarea name="message" rows="5" placeholder="How can I help?" data-i18n-placeholder="contact.form.message.placeholder" required></textarea>
           </label>
-          <button class="btn primary" type="submit">Send</button>
+          <button class="btn primary" type="submit" data-i18n="contact.form.submit">Send</button>
         </form>
       </div>
     </section>
@@ -59,10 +63,11 @@
 
   <footer class="site-footer">
     <div class="container">
-      <p>&copy; <span id="year"></span> Winnie Akello‑Arink. All rights reserved.</p>
+      <p>&copy; <span id="year"></span> Winnie Akello‑Arink. <span data-i18n="footer.rights">All rights reserved.</span></p>
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="translations.js?v=1"></script>
+  <script src="script.js?v=1"></script>
 </body>
 </html>

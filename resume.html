@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Resume — Winnie Akello‑Arink</title>
   <meta name="description" content="Resume of Winnie Akello‑Arink — Education and professional experience" />
-  <link rel="icon" type="image/png" href="assets/images/Site icon.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -18,13 +17,18 @@
       <nav class="site-nav" aria-label="Primary">
         <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">☰</button>
         <ul id="nav-menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+          <li><a href="about.html" data-i18n="nav.about">About</a></li>
+          <li><a href="resume.html" data-i18n="nav.resume">Resume</a></li>
+          <li><a href="gallery.html" data-i18n="nav.gallery">Gallery</a></li>
+          <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
         </ul>
       </nav>
+      <button class="lang-toggle" id="lang-toggle" aria-label="Switch language">
+        <span class="lang-option active" data-lang="en">EN</span>
+        <span class="lang-separator">|</span>
+        <span class="lang-option" data-lang="nl">NL</span>
+      </button>
     </div>
   </header>
 
@@ -32,64 +36,64 @@
     <!-- Professional Experience -->
     <section class="section">
       <div class="container">
-        <h1 class="section-title">Resume</h1>
-        <p class="lead">International humanitarian &amp; sustainable development professional with over nine years of experience managing donor‑funded programmes across Ethiopia, Kenya, Uganda and the Netherlands.</p>
+        <h1 class="section-title" data-i18n="resume.heading">Resume</h1>
+        <p class="lead" data-i18n="resume.lead">International humanitarian &amp; sustainable development professional with over nine years of experience managing donor‑funded programmes across Ethiopia, Kenya, Uganda and the Netherlands.</p>
 
-        <h2 class="eyebrow" style="margin-top:32px;">Professional Experience</h2>
+        <h2 class="eyebrow" style="margin-top:32px;" data-i18n="resume.exp.heading">Professional Experience</h2>
         <div class="timeline">
 
           <div class="t-item">
-            <div class="t-meta">Aug 2024 – Oct 2025 · Nairobi, Kenya</div>
-            <h3 class="t-title">Programme Officer (Recovery &amp; Resilience) — IOM</h3>
-            <p>Programme development, design, grant proposal writing and logframe design. Oversaw international donor‑funded humanitarian portfolios. Led inter‑agency coordination, stakeholder engagement, resource mobilization and results‑based reporting. Supervised technical teams and managed capacity‑building for local partners.</p>
+            <div class="t-meta" data-i18n="resume.job1.meta">Aug 2024 – Oct 2025 · Nairobi, Kenya</div>
+            <h3 class="t-title" data-i18n="resume.job1.title">Programme Officer (Recovery &amp; Resilience) — IOM</h3>
+            <p data-i18n="resume.job1.desc">Programme development, design, grant proposal writing and logframe design. Oversaw international donor‑funded humanitarian portfolios. Led inter‑agency coordination, stakeholder engagement, resource mobilization and results‑based reporting. Supervised technical teams and managed capacity‑building for local partners.</p>
           </div>
 
           <div class="t-item">
-            <div class="t-meta">Feb – Jul 2024 · Addis Ababa, Ethiopia</div>
-            <h3 class="t-title">Project Officer (Preparedness &amp; Response) — IOM</h3>
-            <p>Led planning and implementation of multi‑grant technical assistance projects, including development of tools, indicators and SOPs. Supervised a technical team across five regions. Developed a crisis communication and relocation strategy to support dignified movement and integration of migrants.</p>
+            <div class="t-meta" data-i18n="resume.job2.meta">Feb – Jul 2024 · Addis Ababa, Ethiopia</div>
+            <h3 class="t-title" data-i18n="resume.job2.title">Project Officer (Preparedness &amp; Response) — IOM</h3>
+            <p data-i18n="resume.job2.desc">Led planning and implementation of multi‑grant technical assistance projects, including development of tools, indicators and SOPs. Supervised a technical team across five regions. Developed a crisis communication and relocation strategy to support dignified movement and integration of migrants.</p>
           </div>
 
           <div class="t-item">
-            <div class="t-meta">Jan 2023 – Jan 2024 · Dire Dawa, Ethiopia</div>
-            <h3 class="t-title">Site Management Officer (CCCM) — IOM</h3>
-            <p>Managed site management portfolio including financial operations, procurement and donor reporting. Established strategic partnerships with government authorities, UN agencies and civil society. Designed and conducted capacity‑building trainings. Directed implementation of gender‑focused protection projects.</p>
+            <div class="t-meta" data-i18n="resume.job3.meta">Jan 2023 – Jan 2024 · Dire Dawa, Ethiopia</div>
+            <h3 class="t-title" data-i18n="resume.job3.title">Site Management Officer (CCCM) — IOM</h3>
+            <p data-i18n="resume.job3.desc">Managed site management portfolio including financial operations, procurement and donor reporting. Established strategic partnerships with government authorities, UN agencies and civil society. Designed and conducted capacity‑building trainings. Directed implementation of gender‑focused protection projects.</p>
           </div>
 
           <div class="t-item">
-            <div class="t-meta">Aug – Oct 2021 · Karamoja, Uganda</div>
-            <h3 class="t-title">Consultant — Gender Analysis · UNDP</h3>
-            <p>Conducted gender and institutional analysis to inform climate‑resilient livelihoods and food security programming. Led stakeholder mapping and engagement across public and private sectors. Delivered a results‑based Gender Action Plan with strategic indicators and program frameworks.</p>
+            <div class="t-meta" data-i18n="resume.job4.meta">Aug – Oct 2021 · Karamoja, Uganda</div>
+            <h3 class="t-title" data-i18n="resume.job4.title">Consultant — Gender Analysis · UNDP</h3>
+            <p data-i18n="resume.job4.desc">Conducted gender and institutional analysis to inform climate‑resilient livelihoods and food security programming. Led stakeholder mapping and engagement across public and private sectors. Delivered a results‑based Gender Action Plan with strategic indicators and program frameworks.</p>
           </div>
 
           <div class="t-item">
-            <div class="t-meta">Feb 2019 – Feb 2020 · Den Haag, Netherlands</div>
-            <h3 class="t-title">Assistance &amp; Protection Assistant — OPCW</h3>
-            <p>Contributed to policy research, information management and secure data exchange. Coordinated monitoring and evaluation mechanisms with Programme Managers. Engaged with government officials, diplomatic representatives and international organizations.</p>
+            <div class="t-meta" data-i18n="resume.job5.meta">Feb 2019 – Feb 2020 · Den Haag, Netherlands</div>
+            <h3 class="t-title" data-i18n="resume.job5.title">Assistance &amp; Protection Assistant — OPCW</h3>
+            <p data-i18n="resume.job5.desc">Contributed to policy research, information management and secure data exchange. Coordinated monitoring and evaluation mechanisms with Programme Managers. Engaged with government officials, diplomatic representatives and international organizations.</p>
           </div>
 
           <div class="t-item">
-            <div class="t-meta">Feb 2018 – Feb 2019 · Leidschendam, Netherlands</div>
-            <h3 class="t-title">Gender Focal Point Assistant — STL</h3>
-            <p>Provided technical assistance on gender mainstreaming and protection programming. Supported policy development and stakeholder engagement with Netherlands government MFA and diplomatic missions. Coordinated gender advocacy campaigns, seminars and conferences.</p>
+            <div class="t-meta" data-i18n="resume.job6.meta">Feb 2018 – Feb 2019 · Leidschendam, Netherlands</div>
+            <h3 class="t-title" data-i18n="resume.job6.title">Gender Focal Point Assistant — STL</h3>
+            <p data-i18n="resume.job6.desc">Provided technical assistance on gender mainstreaming and protection programming. Supported policy development and stakeholder engagement with Netherlands government MFA and diplomatic missions. Coordinated gender advocacy campaigns, seminars and conferences.</p>
           </div>
 
           <div class="t-item">
-            <div class="t-meta">Jul – Sep 2016 · Kampala, Uganda</div>
-            <h3 class="t-title">Project Supervisor — URSB</h3>
-            <p>Supervised project implementation and built capacity of programme staff and volunteers. Managed budgets and coordinated with local and national government departments.</p>
+            <div class="t-meta" data-i18n="resume.job7.meta">Jul – Sep 2016 · Kampala, Uganda</div>
+            <h3 class="t-title" data-i18n="resume.job7.title">Project Supervisor — URSB</h3>
+            <p data-i18n="resume.job7.desc">Supervised project implementation and built capacity of programme staff and volunteers. Managed budgets and coordinated with local and national government departments.</p>
           </div>
 
           <div class="t-item">
-            <div class="t-meta">Dec 2014 – Jun 2016 · Lira, Uganda</div>
-            <h3 class="t-title">Gender &amp; Protection Officer — DETREC</h3>
-            <p>Managed teams and budgets for gender mainstreaming and protection projects. Supported policy development, donor coordination and stakeholder engagement. Contributed to institutional learning through SOP development, reporting and advocacy.</p>
+            <div class="t-meta" data-i18n="resume.job8.meta">Dec 2014 – Jun 2016 · Lira, Uganda</div>
+            <h3 class="t-title" data-i18n="resume.job8.title">Gender &amp; Protection Officer — DETREC</h3>
+            <p data-i18n="resume.job8.desc">Managed teams and budgets for gender mainstreaming and protection projects. Supported policy development, donor coordination and stakeholder engagement. Contributed to institutional learning through SOP development, reporting and advocacy.</p>
           </div>
 
           <div class="t-item">
-            <div class="t-meta">Jun 2012 – Nov 2014 · Kampala, Uganda</div>
-            <h3 class="t-title">Research Assistant — Uganda Law Reform Commission</h3>
-            <p>Provided technical assistance on legal reform and protection programming in post‑conflict settings. Conducted field assessments and produced analytical reports. Engaged with local and national government ministries.</p>
+            <div class="t-meta" data-i18n="resume.job9.meta">Jun 2012 – Nov 2014 · Kampala, Uganda</div>
+            <h3 class="t-title" data-i18n="resume.job9.title">Research Assistant — Uganda Law Reform Commission</h3>
+            <p data-i18n="resume.job9.desc">Provided technical assistance on legal reform and protection programming in post‑conflict settings. Conducted field assessments and produced analytical reports. Engaged with local and national government ministries.</p>
           </div>
 
         </div>
@@ -99,16 +103,16 @@
     <!-- Education -->
     <section class="section alt">
       <div class="container">
-        <h2 class="section-title">Education</h2>
+        <h2 class="section-title" data-i18n="resume.edu.heading">Education</h2>
         <div class="timeline">
           <div class="t-item">
-            <div class="t-meta">Sep 2016 – Dec 2017 · The Hague, Netherlands</div>
-            <h3 class="t-title">M.A. in Development Studies — Erasmus Rotterdam University</h3>
-            <p>International Institute for Social Studies. Specialization in Human Rights, Gender and Conflict Studies: Social Justice Perspective.</p>
+            <div class="t-meta" data-i18n="resume.edu1.meta">Sep 2016 – Dec 2017 · The Hague, Netherlands</div>
+            <h3 class="t-title" data-i18n="resume.edu1.title">M.A. in Development Studies — Erasmus Rotterdam University</h3>
+            <p data-i18n="resume.edu1.desc">International Institute for Social Studies. Specialization in Human Rights, Gender and Conflict Studies: Social Justice Perspective.</p>
           </div>
           <div class="t-item">
-            <div class="t-meta">Aug 2010 – May 2013 · Kampala, Uganda</div>
-            <h3 class="t-title">B.A. in Social Sciences — Makerere University</h3>
+            <div class="t-meta" data-i18n="resume.edu2.meta">Aug 2010 – May 2013 · Kampala, Uganda</div>
+            <h3 class="t-title" data-i18n="resume.edu2.title">B.A. in Social Sciences — Makerere University</h3>
           </div>
         </div>
       </div>
@@ -117,12 +121,12 @@
     <!-- Achievements -->
     <section class="section">
       <div class="container">
-        <h2 class="section-title">Achievements</h2>
+        <h2 class="section-title" data-i18n="resume.achievements.heading">Achievements</h2>
         <div class="cards">
-          <div class="card"><h3>Leadership</h3><p>Head of Sub Office (OiC) five times in 2023.</p></div>
-          <div class="card"><h3>Coordination</h3><p>Dire Dawa CCCM Sub‑Cluster Coordinator.</p></div>
-          <div class="card"><h3>Collaboration</h3><p>Kenya National Shelter Strategy 2025–2035.</p></div>
-          <div class="card"><h3>Awards</h3><p>Recognition from STL Registrar; finalist for Dutch JPO.</p></div>
+          <div class="card"><h3 data-i18n="resume.ach1.title">Leadership</h3><p data-i18n="resume.ach1.desc">Head of Sub Office (OiC) five times in 2023.</p></div>
+          <div class="card"><h3 data-i18n="resume.ach2.title">Coordination</h3><p data-i18n="resume.ach2.desc">Dire Dawa CCCM Sub‑Cluster Coordinator.</p></div>
+          <div class="card"><h3 data-i18n="resume.ach3.title">Collaboration</h3><p data-i18n="resume.ach3.desc">Kenya National Shelter Strategy 2025–2035.</p></div>
+          <div class="card"><h3 data-i18n="resume.ach4.title">Awards</h3><p data-i18n="resume.ach4.desc">Recognition from STL Registrar; finalist for Dutch JPO.</p></div>
         </div>
       </div>
     </section>
@@ -131,30 +135,30 @@
     <section class="section alt">
       <div class="container two-col">
         <div>
-          <h2 class="section-title">Languages</h2>
+          <h2 class="section-title" data-i18n="resume.languages.heading">Languages</h2>
           <ul class="skill-list">
-            <li>English — Native</li>
-            <li>Dutch — Advanced</li>
-            <li>Langi — Native</li>
-            <li>Acholi — Native</li>
-            <li>Luganda — Native</li>
-            <li>Lusoga — Advanced</li>
-            <li>Runyankore — Advanced</li>
-            <li>Kiswahili — Basic</li>
-            <li>Amharic — Basic</li>
-            <li>French — Basic</li>
+            <li data-i18n="resume.lang.1">English — Native</li>
+            <li data-i18n="resume.lang.2">Dutch — Advanced</li>
+            <li data-i18n="resume.lang.3">Langi — Native</li>
+            <li data-i18n="resume.lang.4">Acholi — Native</li>
+            <li data-i18n="resume.lang.5">Luganda — Native</li>
+            <li data-i18n="resume.lang.6">Lusoga — Advanced</li>
+            <li data-i18n="resume.lang.7">Runyankore — Advanced</li>
+            <li data-i18n="resume.lang.8">Kiswahili — Basic</li>
+            <li data-i18n="resume.lang.9">Amharic — Basic</li>
+            <li data-i18n="resume.lang.10">French — Basic</li>
           </ul>
         </div>
         <div>
-          <h2 class="section-title">Key Trainings</h2>
+          <h2 class="section-title" data-i18n="resume.training.heading">Key Trainings</h2>
           <ul class="skill-list">
-            <li>Privacy Management &amp; Data Governance (GDPR)</li>
-            <li>Information Management &amp; Data Analysis</li>
-            <li>Project Management Certification</li>
-            <li>Project Monitoring, Evaluation &amp; Learning (MEL)</li>
-            <li>SPHERE Standards, CCCM &amp; Area Based Approaches</li>
-            <li>Global Migration</li>
-            <li>Leveraging Global Frameworks through Policy</li>
+            <li data-i18n="resume.training.1">Privacy Management &amp; Data Governance (GDPR)</li>
+            <li data-i18n="resume.training.2">Information Management &amp; Data Analysis</li>
+            <li data-i18n="resume.training.3">Project Management Certification</li>
+            <li data-i18n="resume.training.4">Project Monitoring, Evaluation &amp; Learning (MEL)</li>
+            <li data-i18n="resume.training.5">SPHERE Standards, CCCM &amp; Area Based Approaches</li>
+            <li data-i18n="resume.training.6">Global Migration</li>
+            <li data-i18n="resume.training.7">Leveraging Global Frameworks through Policy</li>
           </ul>
         </div>
       </div>
@@ -164,10 +168,11 @@
 
   <footer class="site-footer">
     <div class="container">
-      <p>&copy; <span id="year"></span> Winnie Akello‑Arink. All rights reserved.</p>
+      <p>&copy; <span id="year"></span> Winnie Akello‑Arink. <span data-i18n="footer.rights">All rights reserved.</span></p>
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="translations.js?v=1"></script>
+  <script src="script.js?v=1"></script>
 </body>
 </html>

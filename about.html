@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>About — Winnie Akello‑Arink</title>
   <meta name="description" content="About Winnie Akello‑Arink — Gender & Migration Policy Leader" />
-  <link rel="icon" type="image/png" href="assets/images/Site icon.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -18,13 +17,18 @@
       <nav class="site-nav" aria-label="Primary">
         <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">☰</button>
         <ul id="nav-menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+          <li><a href="about.html" data-i18n="nav.about">About</a></li>
+          <li><a href="resume.html" data-i18n="nav.resume">Resume</a></li>
+          <li><a href="gallery.html" data-i18n="nav.gallery">Gallery</a></li>
+          <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
         </ul>
       </nav>
+      <button class="lang-toggle" id="lang-toggle" aria-label="Switch language">
+        <span class="lang-option active" data-lang="en">EN</span>
+        <span class="lang-separator">|</span>
+        <span class="lang-option" data-lang="nl">NL</span>
+      </button>
     </div>
   </header>
 
@@ -32,23 +36,23 @@
     <section class="section">
       <div class="container two-col">
         <div class="about-content">
-          <h1 class="section-title">About</h1>
-          <p>Ms. Winnie Akello‑Arink is a Dutch migrant and National, one of three Ugandans awarded a masters scholarship to the Netherlands in 2016. She has devoted over 10 years to gender and human rights, championing justice and transformative change across multiple countries and contexts.</p>
-          <p>She has served as the Site Management Officer for the International Organization for Migration (IOM) in Ethiopia leading diverse teams, managing projects and interagency coordination. She worked in the Shelter &amp; Settlements Unit of the Programmes, Policy and Development department of IOM Kenya, on climate change adaptation and human settlements. From 2018 to 2020, she worked in the Netherlands at the Gender Focal Point office of the Special Tribunal for Lebanon (STL) and at the International Cooperation and Assistance Division of the Organization for the Prohibition of Chemical Weapons (OPCW) respectively.</p>
-          <p>Before joining the STL in 2018, she worked with Governmental and Non‑Governmental Organizations in Uganda on GBV, assistance, protection, law reform and intellectual property rights. She holds a master's degree in Development Studies with specialization in Social Justice Perspectives: Gender, Human Rights and Conflict Studies from Erasmus Rotterdam University and a bachelor's degree in Social Sciences from Makerere University, Uganda.</p>
+          <h1 class="section-title" data-i18n="about.heading">About</h1>
+          <p data-i18n="about.p1">Ms. Winnie Akello‑Arink is a Dutch migrant and National, one of three Ugandans awarded a masters scholarship to the Netherlands in 2016. She has devoted over 10 years to gender and human rights, championing justice and transformative change across multiple countries and contexts.</p>
+          <p data-i18n="about.p2">She has served as the Site Management Officer for the International Organization for Migration (IOM) in Ethiopia leading diverse teams, managing projects and interagency coordination. She worked in the Shelter &amp; Settlements Unit of the Programmes, Policy and Development department of IOM Kenya, on climate change adaptation and human settlements. From 2018 to 2020, she worked in the Netherlands at the Gender Focal Point office of the Special Tribunal for Lebanon (STL) and at the International Cooperation and Assistance Division of the Organization for the Prohibition of Chemical Weapons (OPCW) respectively.</p>
+          <p data-i18n="about.p3">Before joining the STL in 2018, she worked with Governmental and Non‑Governmental Organizations in Uganda on GBV, assistance, protection, law reform and intellectual property rights. She holds a master's degree in Development Studies with specialization in Social Justice Perspectives: Gender, Human Rights and Conflict Studies from Erasmus Rotterdam University and a bachelor's degree in Social Sciences from Makerere University, Uganda.</p>
         </div>
         <aside>
-          <h3 class="eyebrow">Skills</h3>
+          <h3 class="eyebrow" data-i18n="about.skills.heading">Skills</h3>
           <ul class="skill-list">
-            <li>Project Development, Design &amp; Reporting</li>
-            <li>Programme &amp; Grant Management</li>
-            <li>Gender Equality &amp; Women's Rights</li>
-            <li>Project Coordination &amp; Partner Engagement</li>
-            <li>Donor Engagement &amp; Compliance</li>
-            <li>Capacity Building &amp; Technical Assistance</li>
-            <li>Proposal Writing &amp; Budgeting</li>
-            <li>Climate‑Smart Livelihoods &amp; Inclusive Governance</li>
-            <li>Monitoring, Evaluation &amp; Learning</li>
+            <li data-i18n="about.skill.1">Project Development, Design &amp; Reporting</li>
+            <li data-i18n="about.skill.2">Programme &amp; Grant Management</li>
+            <li data-i18n="about.skill.3">Gender Equality &amp; Women's Rights</li>
+            <li data-i18n="about.skill.4">Project Coordination &amp; Partner Engagement</li>
+            <li data-i18n="about.skill.5">Donor Engagement &amp; Compliance</li>
+            <li data-i18n="about.skill.6">Capacity Building &amp; Technical Assistance</li>
+            <li data-i18n="about.skill.7">Proposal Writing &amp; Budgeting</li>
+            <li data-i18n="about.skill.8">Climate‑Smart Livelihoods &amp; Inclusive Governance</li>
+            <li data-i18n="about.skill.9">Monitoring, Evaluation &amp; Learning</li>
           </ul>
         </aside>
       </div>
@@ -57,10 +61,11 @@
 
   <footer class="site-footer">
     <div class="container">
-      <p>&copy; <span id="year"></span> Winnie Akello‑Arink. All rights reserved.</p>
+      <p>&copy; <span id="year"></span> Winnie Akello‑Arink. <span data-i18n="footer.rights">All rights reserved.</span></p>
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="translations.js?v=1"></script>
+  <script src="script.js?v=1"></script>
 </body>
 </html>

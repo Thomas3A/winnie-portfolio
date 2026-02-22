@@ -103,6 +103,39 @@ img { max-width: 100%; height: auto; display: block; border-radius: 12px; }
 }
 .nav-toggle:hover { border-color: var(--primary); }
 
+/* ---- Language Toggle ---- */
+.lang-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-family: Rubik, system-ui, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  transition: border-color var(--transition);
+  margin-left: 12px;
+  flex-shrink: 0;
+}
+.lang-toggle:hover { border-color: var(--primary); }
+.lang-option {
+  color: var(--muted);
+  transition: color var(--transition);
+  cursor: pointer;
+}
+.lang-option.active { color: var(--primary); }
+.lang-option:hover:not(.active) { color: var(--text); }
+.lang-separator {
+  color: var(--border);
+  font-weight: 300;
+  pointer-events: none;
+  user-select: none;
+}
+
 @media (max-width: 760px) {
   .nav-toggle { display: inline-flex; }
   .site-nav ul {
@@ -119,6 +152,7 @@ img { max-width: 100%; height: auto; display: block; border-radius: 12px; }
     gap: 14px;
   }
   .site-nav ul.open { display: flex; }
+  .lang-toggle { margin-left: 0; margin-right: 8px; }
 }
 
 /* ---- Hero — centered portrait (Home) ---- */

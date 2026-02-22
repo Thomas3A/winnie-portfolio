@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Gallery — Winnie Akello‑Arink</title>
   <meta name="description" content="Photo gallery — Winnie Akello‑Arink" />
-  <link rel="icon" type="image/png" href="assets/images/Site icon.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -18,125 +17,120 @@
       <nav class="site-nav" aria-label="Primary">
         <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">☰</button>
         <ul id="nav-menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+          <li><a href="about.html" data-i18n="nav.about">About</a></li>
+          <li><a href="resume.html" data-i18n="nav.resume">Resume</a></li>
+          <li><a href="gallery.html" data-i18n="nav.gallery">Gallery</a></li>
+          <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
         </ul>
       </nav>
+      <button class="lang-toggle" id="lang-toggle" aria-label="Switch language">
+        <span class="lang-option active" data-lang="en">EN</span>
+        <span class="lang-separator">|</span>
+        <span class="lang-option" data-lang="nl">NL</span>
+      </button>
     </div>
   </header>
 
   <main>
     <section class="section">
       <div class="container">
-        <h1 class="section-title">Gallery</h1>
+        <h1 class="section-title" data-i18n="gallery.heading">Gallery</h1>
         <div class="gallery-grid masonry">
 
           <figure>
-            <img src="assets/images/Media Library Image.jpg" alt="Professional portrait of Winnie" loading="lazy" />
-            <figcaption>Professional portrait</figcaption>
+            <img src="assets/images/Media Library Image.jpg" alt="Professional portrait of Winnie" data-i18n-alt="gallery.img1.alt" loading="lazy" />
+            <figcaption data-i18n="gallery.img1.caption">Professional portrait</figcaption>
           </figure>
 
           <figure>
-            <img src="assets/images/IMG_3304.jpg" alt="Community engagement field visit in Karamoja, Uganda" loading="lazy" />
-            <figcaption>Community engagement, Karamoja, Uganda</figcaption>
+            <img src="assets/images/IMG_3304.jpg" alt="Community engagement field visit in Karamoja, Uganda" data-i18n-alt="gallery.img2.alt" loading="lazy" />
+            <figcaption data-i18n="gallery.img2.caption">Community engagement, Karamoja, Uganda</figcaption>
           </figure>
 
           <figure>
-            <img src="assets/images/Media Library Image (1).jpg" alt="Winnie working at her laptop" loading="lazy" />
-            <figcaption>At work</figcaption>
+            <img src="assets/images/Media Library Image (1).jpg" alt="Winnie working at her laptop" data-i18n-alt="gallery.img3.alt" loading="lazy" />
+            <figcaption data-i18n="gallery.img3.caption">At work</figcaption>
           </figure>
 
           <figure>
-            <img src="assets/images/IMG 6275 Media Library.jpg" alt="IOM team group photo at field site in Ethiopia" loading="lazy" />
-            <figcaption>IOM team, field site in Ethiopia</figcaption>
+            <img src="assets/images/IMG 6275 Media Library.jpg" alt="IOM team group photo at field site in Ethiopia" data-i18n-alt="gallery.img4.alt" loading="lazy" />
+            <figcaption data-i18n="gallery.img4.caption">IOM team, field site in Ethiopia</figcaption>
           </figure>
 
           <figure>
-            <img src="assets/images/IMG Sept 12 2019 from Media Library.jpg" alt="Winnie presenting at OPCW, The Hague" loading="lazy" />
-            <figcaption>Presentation at OPCW, The Hague</figcaption>
+            <img src="assets/images/IMG Sept 12 2019 from Media Library.jpg" alt="Winnie presenting at OPCW, The Hague" data-i18n-alt="gallery.img5.alt" loading="lazy" />
+            <figcaption data-i18n="gallery.img5.caption">Presentation at OPCW, The Hague</figcaption>
           </figure>
 
           <figure>
-            <img src="assets/images/Media Library Picture.jpg" alt="IOM community engagement with women in Ethiopia" loading="lazy" />
-            <figcaption>Community engagement with women, Ethiopia</figcaption>
+            <img src="assets/images/Media Library Picture.jpg" alt="IOM community engagement with women in Ethiopia" data-i18n-alt="gallery.img6.alt" loading="lazy" />
+            <figcaption data-i18n="gallery.img6.caption">Community engagement with women, Ethiopia</figcaption>
           </figure>
 
           <figure>
-            <img src="assets/images/IMG 5381 scaled.jpg" alt="Community needs assessment in Ethiopia" loading="lazy" />
-            <figcaption>Needs assessment, Ethiopia</figcaption>
+            <img src="assets/images/IMG 5381 scaled.jpg" alt="Community needs assessment in Ethiopia" data-i18n-alt="gallery.img7.alt" loading="lazy" />
+            <figcaption data-i18n="gallery.img7.caption">Needs assessment, Ethiopia</figcaption>
           </figure>
 
           <figure>
-            <img src="assets/images/IMG Mar 9 2020.jpg" alt="Portrait of Winnie in the Netherlands" loading="lazy" />
-            <figcaption>The Netherlands</figcaption>
+            <img src="assets/images/IMG Mar 9 2020.jpg" alt="Portrait of Winnie in the Netherlands" data-i18n-alt="gallery.img8.alt" loading="lazy" />
+            <figcaption data-i18n="gallery.img8.caption">The Netherlands</figcaption>
           </figure>
 
           <figure>
-            <img src="assets/images/IMG_6103.jpg" alt="CCCM Core Training group photo with certificates" loading="lazy" />
-            <figcaption>CCCM Core Training, Dire Dawa</figcaption>
+            <img src="assets/images/IMG_6103.jpg" alt="CCCM Core Training group photo with certificates" data-i18n-alt="gallery.img9.alt" loading="lazy" />
+            <figcaption data-i18n="gallery.img9.caption">CCCM Core Training, Dire Dawa</figcaption>
           </figure>
 
           <figure>
-            <img src="assets/images/IMG 6956 Media Library.jpeg" alt="Winnie at her office desk" loading="lazy" />
-            <figcaption>At the office, Ethiopia</figcaption>
+            <img src="assets/images/IMG 6956 Media Library.jpeg" alt="Winnie at her office desk" data-i18n-alt="gallery.img10.alt" loading="lazy" />
+            <figcaption data-i18n="gallery.img10.caption">At the office, Ethiopia</figcaption>
           </figure>
 
           <figure>
-            <img src="assets/images/Media Library Image (2).jpg" alt="IOM team visiting a local market in Ethiopia" loading="lazy" />
-            <figcaption>Field visit with IOM colleagues, Ethiopia</figcaption>
+            <img src="assets/images/Media Library Image (2).jpg" alt="IOM team visiting a local market in Ethiopia" data-i18n-alt="gallery.img11.alt" loading="lazy" />
+            <figcaption data-i18n="gallery.img11.caption">Field visit with IOM colleagues, Ethiopia</figcaption>
           </figure>
 
           <figure>
-            <img src="assets/images/Photo Aug 25 2025.jpg" alt="IOM field site inspection in Kenya" loading="lazy" />
-            <figcaption>Site inspection, Kenya</figcaption>
+            <img src="assets/images/Photo Aug 25 2025.jpg" alt="IOM field site inspection in Kenya" data-i18n-alt="gallery.img12.alt" loading="lazy" />
+            <figcaption data-i18n="gallery.img12.caption">Site inspection, Kenya</figcaption>
           </figure>
 
           <figure>
-            <img src="assets/images/IMG Aug 21 2019 from Media Library.jpg" alt="Colleagues at OPCW conference room" loading="lazy" />
-            <figcaption>At the OPCW, The Hague</figcaption>
+            <img src="assets/images/IMG Aug 21 2019 from Media Library.jpg" alt="Colleagues at OPCW conference room" data-i18n-alt="gallery.img13.alt" loading="lazy" />
+            <figcaption data-i18n="gallery.img13.caption">At the OPCW, The Hague</figcaption>
           </figure>
 
           <figure>
-            <img src="assets/images/PHOTO-2025-08-07-23-05-42.jpg" alt="Fieldwork documentation" loading="lazy" />
-            <figcaption>Fieldwork documentation</figcaption>
+            <img src="assets/images/IMG 5240 Media Library.jpg" alt="IOM team at displacement site in Ethiopia" data-i18n-alt="gallery.img15.alt" loading="lazy" />
+            <figcaption data-i18n="gallery.img15.caption">Field visit, displacement site, Ethiopia</figcaption>
           </figure>
 
           <figure>
-            <img src="assets/images/IMG 5240 Media Library.jpg" alt="IOM team at displacement site in Ethiopia" loading="lazy" />
-            <figcaption>Field visit, displacement site, Ethiopia</figcaption>
+            <img src="assets/images/IMG Dec 4 2017 from Media Library.jpg" alt="Winnie cycling in the Netherlands" data-i18n-alt="gallery.img17.alt" loading="lazy" />
+            <figcaption data-i18n="gallery.img17.caption">Life in the Netherlands, 2017</figcaption>
           </figure>
 
           <figure>
-            <img src="assets/images/Photo Aug 7 2025.jpg" alt="At the OPCW conference room with gavel" loading="lazy" />
-            <figcaption>OPCW conference room, The Hague</figcaption>
+            <img src="assets/images/PHOTO-2025-08-07-23-08-00.jpg" alt="Project site visit" data-i18n-alt="gallery.img18.alt" loading="lazy" />
+            <figcaption data-i18n="gallery.img18.caption">Project site visit</figcaption>
           </figure>
 
           <figure>
-            <img src="assets/images/IMG Dec 4 2017 from Media Library.jpg" alt="Winnie cycling in the Netherlands" loading="lazy" />
-            <figcaption>Life in the Netherlands, 2017</figcaption>
+            <img src="assets/images/team-picture.jpg" alt="Team photo" data-i18n-alt="gallery.img19.alt" loading="lazy" />
+            <figcaption data-i18n="gallery.img19.caption">Team photo</figcaption>
           </figure>
 
           <figure>
-            <img src="assets/images/PHOTO-2025-08-07-23-08-00.jpg" alt="Project site visit" loading="lazy" />
-            <figcaption>Project site visit</figcaption>
+            <img src="assets/images/d0688ad0-bd58-4a55-b878-c6c7ce6da202.jpg" alt="Community engagement" data-i18n-alt="gallery.img20.alt" loading="lazy" />
+            <figcaption data-i18n="gallery.img20.caption">Community engagement</figcaption>
           </figure>
 
           <figure>
-            <img src="assets/images/team-picture.jpg" alt="Team photo" loading="lazy" />
-            <figcaption>Team photo</figcaption>
-          </figure>
-
-          <figure>
-            <img src="assets/images/d0688ad0-bd58-4a55-b878-c6c7ce6da202.jpg" alt="Community engagement" loading="lazy" />
-            <figcaption>Community engagement</figcaption>
-          </figure>
-
-          <figure>
-            <img src="assets/images/IMG 4837 Media Library.jpeg" alt="Young Winnie — childhood photo" loading="lazy" />
-            <figcaption>Throwback</figcaption>
+            <img src="assets/images/IMG 4837 Media Library.jpeg" alt="Young Winnie — childhood photo" data-i18n-alt="gallery.img21.alt" loading="lazy" />
+            <figcaption data-i18n="gallery.img21.caption">Throwback</figcaption>
           </figure>
 
         </div>
@@ -146,16 +140,17 @@
 
   <!-- Lightbox overlay -->
   <div class="lightbox-overlay" id="lightbox">
-    <button class="lightbox-close" aria-label="Close lightbox">&times;</button>
+    <button class="lightbox-close" aria-label="Close lightbox" data-i18n-aria-label="lightbox.close">&times;</button>
     <img src="" alt="" />
   </div>
 
   <footer class="site-footer">
     <div class="container">
-      <p>&copy; <span id="year"></span> Winnie Akello‑Arink. All rights reserved.</p>
+      <p>&copy; <span id="year"></span> Winnie Akello‑Arink. <span data-i18n="footer.rights">All rights reserved.</span></p>
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="translations.js?v=1"></script>
+  <script src="script.js?v=1"></script>
 </body>
 </html>
