@@ -109,6 +109,23 @@ if (yearSpan) {
   yearSpan.textContent = new Date().getFullYear();
 }
 
+/* ---- Email reveal (anti-scrape) ---- */
+const emailBtn = document.querySelector('#email-reveal');
+if (emailBtn) {
+  emailBtn.addEventListener('click', function () {
+    var u = 'info';
+    var d = 'winnieakelloarink.com';
+    var addr = u + '@' + d;
+    var wrap = document.createElement('div');
+    wrap.className = 'email-revealed';
+    var link = document.createElement('a');
+    link.href = 'mailto:' + addr;
+    link.textContent = addr;
+    wrap.appendChild(link);
+    emailBtn.replaceWith(wrap);
+  });
+}
+
 /* ---- Gallery lightbox ---- */
 const lightbox = document.querySelector('#lightbox');
 

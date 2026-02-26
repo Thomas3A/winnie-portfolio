@@ -179,14 +179,7 @@ window.TRANSLATIONS = {
     "meta.contact.description": "Contact Winnie Akello\u2011Arink",
     "contact.heading": "Contact",
     "contact.lead": "I\u2019m open to opportunities in gender, migration policy, operations and governance.",
-    "contact.email.label": "Email",
-    "contact.form.name.label": "Name",
-    "contact.form.name.placeholder": "Your name",
-    "contact.form.email.label": "Email",
-    "contact.form.email.placeholder": "you@example.com",
-    "contact.form.message.label": "Message",
-    "contact.form.message.placeholder": "How can I help?",
-    "contact.form.submit": "Send"
+    "contact.reveal": "Show email address"
   },
 
   /* -------------------------------------------------- */
@@ -365,14 +358,7 @@ window.TRANSLATIONS = {
     "meta.contact.description": "Neem contact op met Winnie Akello\u2011Arink",
     "contact.heading": "Contact",
     "contact.lead": "Ik sta open voor kansen op het gebied van gender, migratiebeleid, operaties en bestuur.",
-    "contact.email.label": "E-mail",
-    "contact.form.name.label": "Naam",
-    "contact.form.name.placeholder": "Uw naam",
-    "contact.form.email.label": "E-mail",
-    "contact.form.email.placeholder": "u@voorbeeld.nl",
-    "contact.form.message.label": "Bericht",
-    "contact.form.message.placeholder": "Waarmee kan ik u helpen?",
-    "contact.form.submit": "Versturen"
+    "contact.reveal": "Toon e-mailadres"
   }
 
 };
